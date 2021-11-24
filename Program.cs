@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.ChainOfResponsibility;
 using DesignPatterns.Strategy;
+using DesignPatterns.Template;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,8 @@ namespace DesignPatterns {
     public class Program {
         public static void Main(String[] args) {
             //StrategyMain.MainStrategy();
-            ChainOfResponsibilityMain.MainCOR();
+            //ChainOfResponsibilityMain.MainCOR();
+            TemplateMain.MainTemplate();
         }
     }
 }
