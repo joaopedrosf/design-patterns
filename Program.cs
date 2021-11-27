@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.ChainOfResponsibility;
+using DesignPatterns.Decorator;
 using DesignPatterns.Strategy;
 using DesignPatterns.Template;
 using System;
@@ -12,7 +13,8 @@ namespace DesignPatterns {
         public static void Main(String[] args) {
             //StrategyMain.MainStrategy();
             //ChainOfResponsibilityMain.MainCOR();
-            TemplateMain.MainTemplate();
+            //TemplateMain.MainTemplate();
+            DecoratorMain.MainDecorator();
         }
     }
 }
