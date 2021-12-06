@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.Builder;
 using DesignPatterns.ChainOfResponsibility;
 using DesignPatterns.Decorator;
+using DesignPatterns.Observer;
 using DesignPatterns.State;
 using DesignPatterns.Strategy;
 using DesignPatterns.Template;
@@ -18,7 +19,8 @@ namespace DesignPatterns {
             //TemplateMain.MainTemplate();
             //DecoratorMain.MainDecorator();
             //StateMain.MainState();
-            BuilderMain.MainBuilder();
+            //BuilderMain.MainBuilder();
+            ObserverMain.MainObserver();
         }
     }
 }
