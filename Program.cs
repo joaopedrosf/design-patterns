@@ -1,4 +1,5 @@
-﻿using DesignPatterns.ChainOfResponsibility;
+﻿using DesignPatterns.Builder;
+using DesignPatterns.ChainOfResponsibility;
 using DesignPatterns.Decorator;
 using DesignPatterns.State;
 using DesignPatterns.Strategy;
@@ -16,7 +17,8 @@ namespace DesignPatterns {
             //ChainOfResponsibilityMain.MainCOR();
             //TemplateMain.MainTemplate();
             //DecoratorMain.MainDecorator();
-            StateMain.MainState();
+            //StateMain.MainState();
+            BuilderMain.MainBuilder();
         }
     }
 }
