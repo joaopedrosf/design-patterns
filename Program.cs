@@ -2,6 +2,7 @@
 using DesignPatterns.ChainOfResponsibility;
 using DesignPatterns.Decorator;
 using DesignPatterns.Factory;
+using DesignPatterns.Flyweight;
 using DesignPatterns.Observer;
 using DesignPatterns.State;
 using DesignPatterns.Strategy;
@@ -22,7 +23,8 @@ namespace DesignPatterns {
             //StateMain.MainState();
             //BuilderMain.MainBuilder();
             //ObserverMain.MainObserver();
-            FactoryMain.MainFactory();
+            //FactoryMain.MainFactory();
+            FlyweightMain.MainFlyweight();
         }
     }
 }
